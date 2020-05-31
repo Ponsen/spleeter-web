@@ -339,6 +339,55 @@ class Home extends Component {
               vocals: false
             }
           ],
+        },
+        {
+          artist: "Take That",
+          title: "The Flood",
+          date_created: "2020-05-31T15:10:03Z",
+          id: "14e1e4db-4e31-42e6-92bd-0cd6e5c79472",
+          source_id: "b8b969f2-d51a-4488-a4e2-395bca072563",
+          url: "https://spleeterstorage.blob.core.windows.net/media/uploads/b8b969f2-d51a-4488-a4e2-395bca072563/01_-_The_Flood.mp3",
+          processed: [
+            {
+              artist: "Take That",
+              title: "The Flood",
+              bass: false,
+              date_created: "2020-05-31T15:25:03Z",
+              drums: false,
+              error: "",
+              id: "974f003d-0451-4d63-84c9-8112624c4a5d",
+              other: false,
+              status: "Done",
+              url: "https://spleeterstorage.blob.core.windows.net/media/separate/974f003d-0451-4d63-84c9-8112624c4a5d/Take_That_-_The_Flood_vocals.mp3",
+              vocals: true
+            },
+            {
+              artist: "Take That",
+              title: "The Flood",
+              bass: true,
+              date_created: "2020-05-31T15:27:03Z",
+              drums: true,
+              error: "",
+              id: "058d99fc-9e48-4714-ae8f-c23b63deaa58",
+              other: true,
+              status: "Done",
+              url: "https://spleeterstorage.blob.core.windows.net/media/separate/058d99fc-9e48-4714-ae8f-c23b63deaa58/Take_That_-_The_Flood_drums_bass_other.mp3",
+              vocals: false
+            },
+            {
+              artist: "Take That",
+              title: "The Flood",
+              bass: false,
+              date_created: "2020-05-31T15:28:03Z",
+              drums: true,
+              error: "",
+              id: "ebe23e56-059c-4cfa-b5fe-f028562beb0d",
+              other: false,
+              status: "Done",
+              url: "https://spleeterstorage.blob.core.windows.net/media/separate/ebe23e56-059c-4cfa-b5fe-f028562beb0d/Take_That_-_The_Flood_drums.mp3",
+              vocals: false
+            }
+          ]
         }
       ]
     })
