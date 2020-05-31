@@ -200,7 +200,7 @@ class Home extends Component {
           id: "aee38ebd-5581-42c7-919a-b4253e9f0d40",
           source_id: "3d35dfa6-7f85-4cd3-9a6c-98db4b9c0861",
           url: "https://spleeterstorage.blob.core.windows.net/media/uploads/3d35dfa6-7f85-4cd3-9a6c-98db4b9c0861/Linkin_Park_-_In_The_End_Mellen_Gi_Remix.webm",
-          separated: [
+          processed: [
             {
               artist: "Linkin Park",
               title: "In the End (Mellen Gi Remix)",
@@ -249,7 +249,7 @@ class Home extends Component {
           id: "b33ed5ec-5f78-4a0c-b85c-b7d0af2e211a",
           source_id: "6d452a29-886d-481e-876d-c720b400d2a7",
           url: "https://spleeterstorage.blob.core.windows.net/media/uploads/6d452a29-886d-481e-876d-c720b400d2a7/Queen_-_Bohemian_Rhapsody.m4a",
-          separated: [
+          processed: [
             {
               artist: "Queen",
               title: "Bohemian Rhapsody",
@@ -298,7 +298,7 @@ class Home extends Component {
           id: "cd753ed0-86d7-4c70-afaa-873c2694b257",
           source_id: "80359c75-02fd-45fe-974d-56476b66c803",
           url: "https://spleeterstorage.blob.core.windows.net/media/uploads/80359c75-02fd-45fe-974d-56476b66c803/01_Believer.mp3",
-          separated: [
+          processed: [
             {
               artist: "Imagine Dragons",
               title: "Believer ft. Lil Wayne",
