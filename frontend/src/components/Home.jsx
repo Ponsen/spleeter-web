@@ -388,6 +388,55 @@ class Home extends Component {
               vocals: false
             }
           ]
+        },
+        {
+          artist: "Two Steps From Hell",
+          title: "Star Sky",
+          date_created: "2020-05-31T18:45:05Z",
+          id: "7e929d02-6555-4ad5-8cac-84f20a35cecf",
+          source_id: "f1706f8f-e4b2-490e-9a81-b0091d14c81a",
+          url: "https://spleeterstorage.blob.core.windows.net/media/uploads/f1706f8f-e4b2-490e-9a81-b0091d14c81a/Two_Steps_From_Hell_-_Star_Sky.webm",
+          processed: [
+            {
+              artist: "Two Steps From Hell",
+              title: "Star Sky",
+              bass: true,
+              date_created: "2020-05-31T18:47:05Z",
+              drums: true,
+              error: "",
+              id: "858d6dd2-1892-4629-a40c-166e5ccefb2d",
+              other: true,
+              status: "Done",
+              url: "https://spleeterstorage.blob.core.windows.net/media/separate/858d6dd2-1892-4629-a40c-166e5ccefb2d/Two_Steps_From_Hell_-_Star_Sky_drums_bass_other.mp3",
+              vocals: false
+            },
+            {
+              artist: "Two Steps From Hell",
+              title: "Star Sky",
+              bass: true,
+              date_created: "2020-05-31T18:50:05Z",
+              drums: true,
+              error: "",
+              id: "858d6dd2-1892-4629-a40c-166e5ccefb2d",
+              other: false,
+              status: "Done",
+              url: "https://spleeterstorage.blob.core.windows.net/media/separate/977b1d34-9289-40af-b43b-f05eb5910080/Two_Steps_From_Hell_-_Star_Sky_drums_bass.mp3",
+              vocals: false
+            },
+            {
+              artist: "Two Steps From Hell",
+              title: "Star Sky",
+              bass: false,
+              date_created: "2020-05-31T18:54:05Z",
+              drums: false,
+              error: "",
+              id: "858d6dd2-1892-4629-a40c-166e5ccefb2d",
+              other: true,
+              status: "Done",
+              url: "https://spleeterstorage.blob.core.windows.net/media/separate/c0cfe6cd-a8fd-414d-b298-964a5bcae5e5/Two_Steps_From_Hell_-_Star_Sky_vocals_other.mp3",
+              vocals: true
+            }
+          ]
         }
       ]
     })
