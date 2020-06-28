@@ -44,7 +44,7 @@ export class YouTubeLinkField extends React.Component {
               name="link"
               disabled={disabled}
               value={link}
-              placeholder="https://www.youtube.com/watch?v="
+              placeholder="Any Supported yt-dl extractor"
               onChange={handleChange}
             />
             <InputGroup.Append className="justify-content-center align-items-center">

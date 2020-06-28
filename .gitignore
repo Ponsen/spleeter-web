@@ -39,3 +39,6 @@ venv.bak/
 huey.*
 .coverage
 media/
+
+# pip install folder
+src/

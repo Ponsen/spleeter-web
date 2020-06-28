@@ -19,8 +19,8 @@ const ERROR_MAP = {
   'error_upload_params': 'Unknown error occurred.'
 }
 
-function isValidYouTubeLink(link) {
-  const re = /(?:youtube\.com\/\S*(?:(?:\/e(?:mbed))?\/|watch\?(?:\S*?&?v\=))|youtu\.be\/)([a-zA-Z0-9_-]{6,11})/
+function isValidUrl(link) {
+  const re = /[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)?/gi;
   return re.test(link)
 }
 
@@ -208,7 +208,7 @@ class UploadModal extends React.Component {
       // Clear state if input field was cleared
       if (!value) {
         this.resetFetchState()
-      } else if (value && !isValidYouTubeLink(value)) {
+      } else if (value && !isValidUrl(value)) {  //removed validation - leaving it for the backend using extractors from domain
         // Invalid link
         this.resetFetchState()
         this.setState({ errors: ['Invalid YouTube link.'] })
